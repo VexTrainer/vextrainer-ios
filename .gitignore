@@ -1,0 +1,40 @@
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+Package.resolved
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# XcodeGen - the project file is regenerated, do not commit it
+VexTrainer.xcodeproj/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Build artifacts
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Local config — anything prefixed Debug stays local-only
+# (test credentials, scratch files, personal debug helpers).
+# Use this convention: files committed to git must NOT start with "Debug".
+Debug*.swift
+.env
+.env.local
+LocalConfig.swift
