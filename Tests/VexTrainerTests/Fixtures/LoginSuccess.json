@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "data": {
+    "userId": 42,
+    "userName": "testuser",
+    "email": "test@example.com",
+    "token": "eyJhbGciOiJIUzI1NiJ9.test.token",
+    "refreshToken": "rt_abc123def456",
+    "expiryDate": "2026-06-09T10:30:00",
+    "roleName": "Student"
+  },
+  "message": "Login successful",
+  "resultCode": 0
+}

@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "data": {
+    "userId": 0,
+    "userName": "",
+    "email": "",
+    "token": "eyJhbGciOiJIUzI1NiJ9.refreshed.token",
+    "refreshToken": "rt_new_xyz789",
+    "expiryDate": "2026-06-09T11:30:00",
+    "roleName": "User"
+  },
+  "message": "Token refreshed",
+  "resultCode": 0
+}

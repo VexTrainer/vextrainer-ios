@@ -1,0 +1,6 @@
+{
+  "success": false,
+  "data": null,
+  "message": "Invalid credentials",
+  "resultCode": 1001
+}
